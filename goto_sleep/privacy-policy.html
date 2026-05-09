@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Goto Sleep — Privacy Policy</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 760px; margin: 2rem auto; padding: 0 1.25rem; color: #222; line-height: 1.6; }
+  h1 { border-bottom: 2px solid #333; padding-bottom: 0.4rem; }
+  h2 { margin-top: 2rem; border-bottom: 1px solid #ddd; padding-bottom: 0.3rem; }
+  ul li { margin-bottom: 0.3rem; }
+  .meta { color: #666; font-size: 0.9em; }
+  a { color: #0366d6; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy for Goto Sleep</h1>
+<p class="meta">Effective date: May 9, 2026</p>
+
+<p>This Privacy Policy describes how the Goto Sleep mobile application ("Goto Sleep", "the app", "we", "our", or "us") handles information when you use it. Goto Sleep is published by Eat Sandwiches.</p>
+
+<h2>What the app does</h2>
+<p>Goto Sleep generates different types of audio noise (white, pink, brown, green, blue, violet) to help you sleep. All audio is generated on your device — no audio files are downloaded or streamed.</p>
+
+<h2>Information we collect directly</h2>
+<p>Goto Sleep does not have user accounts, logins, profiles, or a backend system that stores personal information about you. We do not collect your name, email address, phone number, or any other directly identifying information.</p>
+<p>We do, however, use Google's Firebase platform to receive automatic crash reports and aggregate usage analytics from the app. The specific information collected through Firebase is described in the next section.</p>
+
+<h2>Information stored on your device</h2>
+<p>The app stores small amounts of data locally on your device using Android's <code>SharedPreferences</code> system. This data never leaves your device and is not accessible to us. It includes:</p>
+<ul>
+  <li>Accumulated playback credit time (used by the app's free-listening / rewarded-ad system)</li>
+  <li>A timestamp of the last credit update (used to recover correctly after the app is killed mid-playback)</li>
+  <li>A flag indicating whether the app has been launched before (used to grant the first-launch bonus)</li>
+  <li>Volume preferences for the in-app slider</li>
+</ul>
+<p>Uninstalling the app removes all of this data from your device.</p>
+
+<h2>Information collected by third parties</h2>
+
+<h3>Firebase Crashlytics (crash reporting)</h3>
+<p>Goto Sleep uses Google's Firebase Crashlytics service to receive automatic reports when the app crashes. This helps us diagnose and fix bugs in the app. When the app crashes, Crashlytics may send the following to Google's servers:</p>
+<ul>
+  <li>The crash stack trace and exception type</li>
+  <li>A breadcrumb log of in-app events leading up to the crash</li>
+  <li>Device model, manufacturer, and Android version</li>
+  <li>App version</li>
+  <li>An anonymous Firebase installation ID (a randomly generated identifier that is not linked to your Google account or to any personally identifying information)</li>
+</ul>
+<p>Crashlytics does not collect your name, email address, advertising ID, or precise location. Crash data is governed by Google's privacy policy.</p>
+
+<h3>Firebase Analytics (aggregate usage statistics)</h3>
+<p>Goto Sleep uses Google's Firebase Analytics service to collect aggregate, anonymous usage information that helps us understand how the app is used in general (for example, how many people open the app per day, what Android versions are most common among users, and which countries the app is used in). Firebase Analytics may collect:</p>
+<ul>
+  <li>App open events and basic interaction events</li>
+  <li>Approximate location at country level, derived from your IP address</li>
+  <li>Device and OS information (model, language, OS version)</li>
+  <li>App version and Firebase installation ID</li>
+</ul>
+<p>Firebase Analytics does not collect your name, email address, or precise location. The data is used in aggregate form to understand usage patterns; we do not use it to identify or profile individual users.</p>
+
+<h3>Google AdMob (advertising)</h3>
+<p>Goto Sleep displays a banner advertisement and offers an optional rewarded video advertisement (which grants additional listening time when watched). These ads are served by Google AdMob, which is part of Google's advertising platform.</p>
+
+<p>When ads are shown, AdMob and Google may collect and process the following information from your device:</p>
+<ul>
+  <li>Your device's <strong>advertising identifier</strong> (Android Advertising ID / AAID)</li>
+  <li>IP address</li>
+  <li>Approximate location derived from your IP address</li>
+  <li>Device information such as model, operating system version, language, and app version</li>
+  <li>Ad interaction events (impressions, clicks)</li>
+  <li>Diagnostic information needed to detect fraud and measure ad performance</li>
+</ul>
+
+<p>Google uses this information to serve and measure ads (including, where permitted, personalized ads), to detect invalid traffic, and for other purposes described in Google's policies. Google's collection and use of data through AdMob is governed by Google's own privacy policy and the AdMob policies, available at:</p>
+<ul>
+  <li><a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+  <li><a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a></li>
+  <li><a href="https://support.google.com/admob/answer/6128543">https://support.google.com/admob/answer/6128543</a> (data collected by AdMob)</li>
+</ul>
+
+<h3>Your choices regarding advertising</h3>
+<ul>
+  <li>You can reset your Android Advertising ID or opt out of ad personalization at any time from your device's Settings &rarr; Privacy &rarr; Ads (the exact path varies by Android version and manufacturer).</li>
+  <li>If you live in a region where consent for personalized ads is required (e.g. the European Economic Area, the United Kingdom, or Switzerland), Google's consent framework will request your consent before personalized ads are served.</li>
+</ul>
+
+<h2>Permissions we request, and why</h2>
+<ul>
+  <li><strong>Foreground service / Foreground service (media playback):</strong> required so that noise playback continues while the app is in the background or your screen is off.</li>
+  <li><strong>Wake lock:</strong> keeps the CPU awake during playback so audio does not stutter or stop when the device tries to enter deep sleep.</li>
+  <li><strong>Post notifications:</strong> required on Android 13 and later to display the persistent playback notification associated with the foreground service.</li>
+  <li><strong>Internet access</strong> (declared by the Google Mobile Ads SDK and Firebase SDKs): required to fetch advertisements and to upload crash reports and aggregate analytics events to Firebase. No other network calls are made by the app.</li>
+</ul>
+
+<h2>Children's privacy</h2>
+<p>Goto Sleep is intended for general audiences and is not directed to children under 13. We do not knowingly collect personal information from children. If you believe a child has provided information to us through this app, please contact us and we will take steps to delete that information.</p>
+
+<h2>Data retention</h2>
+<p>We do not operate any servers ourselves and do not store user data outside of Google's Firebase and AdMob platforms. Crashlytics data is retained by Firebase for up to 90 days for individual crash records. Firebase Analytics data retention defaults to 14 months for user-level data. AdMob data is retained according to Google's own policies. Data stored on your device by the app (such as accumulated playback credit) remains on your device until you clear it from system settings or uninstall the app.</p>
+
+<h2>Your rights</h2>
+<p>Depending on where you live, you may have rights under applicable privacy laws (such as the GDPR in the European Economic Area, the UK GDPR, or the CCPA / CPRA in California) regarding personal information held about you. Because Goto Sleep does not maintain its own user database — all third-party data is held by Google — the practical effect is:</p>
+<ul>
+  <li>We have no separate database from which to access, correct, export, or delete data.</li>
+  <li>For data collected by Firebase Crashlytics, Firebase Analytics, or Google AdMob, please contact Google directly. Google provides tools at <a href="https://myaccount.google.com/data-and-privacy">https://myaccount.google.com/data-and-privacy</a> to manage data associated with your Google account, and you can opt out of personalized ads through your device's advertising settings as described above.</li>
+  <li>If you would like us to make a deletion request to Google on your behalf for data associated with your Firebase installation ID for this app, please contact us at the address below.</li>
+</ul>
+
+<h2>Changes to this policy</h2>
+<p>We may update this Privacy Policy from time to time. When we do, we will update the "Effective date" at the top of this page. Continued use of Goto Sleep after a change indicates acceptance of the updated policy.</p>
+
+<h2>Contact</h2>
+<p>If you have any questions about this Privacy Policy, you can reach us at:</p>
+<p><a href="mailto:eatsandwiches.dev@gmail.com">eatsandwiches.dev@gmail.com</a></p>
+
+</body>
+</html>
